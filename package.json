@@ -1,11 +1,12 @@
 {
-  "name": "gio_piscinas",
+  "name": "giopiscinas",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@types/firebase": "^3.2.1",
     "@types/jest": "^26.0.15",
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
@@ -46,6 +47,12 @@
     ]
   },
   "devDependencies": {
+    "firebase": "^8.2.9",
+    "firebase-tools": "^9.5.0",
     "styled-components": "^5.2.1"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/Bryandu/gio_piscinas.git",
+  "author": "Bryandu <Bryandu>",
+  "license": "MIT"
 }
